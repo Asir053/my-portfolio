@@ -3,6 +3,7 @@ import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
+import { GiArtificialIntelligence } from "react-icons/gi";
 
 import { BsCircleFill } from "react-icons/bs";
 
@@ -11,36 +12,35 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b>CSS</b> , <b>Bootstrap</b> , <b>React.js etc.</b>",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Express</b> , <b>.NET</b> etc. frameworks",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
-    about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+    about: "I can develop robust REST API using <b>Node API</b>",
   },
   {
     Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    title: "Competitive Coding",
+    about: "problem solving habit in <b>Codeforces</b> and <b>LeetCode</b> ",
   },
   {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    Icon: GiArtificialIntelligence,
+    title: "Machine Learning",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "practical knowledge in <b>Machine Learning</b> , <b>Neural Networks</b> and <b>NLP</b>",
   },
   {
     Icon: RiComputerLine,
-    title: "Whatever",
+    title: "Research",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "Eager to study cutting edge <b>ML/DL concepts</b> and implement them",
   },
 ];
 
@@ -48,16 +48,35 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "45",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
     name: "Java Script",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "SQL",
+    level: "70",
+  },
+
+  {
+    Icon: BsCircleFill,
+    name: "C#",
     level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "React Native",
+    name: "Java",
+    level: "60",
+  },
+];
+
+export const tools: Skill[] = [
+  {
+    Icon: BsCircleFill,
+    name: "Bootstrap 5",
     level: "80",
   },
   {
@@ -67,36 +86,18 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    name: ".NET",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
-  },
-];
-
-export const tools: Skill[] = [
-  {
-    Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
+    name: "PyTorch",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
+    name: "CSS Flex & Grid",
+    level: "65",
   },
 ];
 
