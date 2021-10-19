@@ -1,6 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 import { GiArtificialIntelligence } from "react-icons/gi";
@@ -18,7 +18,7 @@ export const services: Service[] = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express</b> , <b>.NET</b> etc. frameworks",
+      "handle database, server, api using <b>Express</b> , <b>ASP.NET</b> etc. frameworks",
   },
   {
     Icon: AiOutlineApi,
@@ -71,6 +71,16 @@ export const languages: Skill[] = [
     name: "Java",
     level: "60",
   },
+  {
+    Icon: BsCircleFill,
+    name: "C++",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "PHP",
+    level: "60",
+  },
 ];
 
 export const tools: Skill[] = [
@@ -86,13 +96,18 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: ".NET",
+    name: "ASP.NET",
     level: "65",
   },
   {
     Icon: BsCircleFill,
     name: "PyTorch",
     level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Keras",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
@@ -103,102 +118,120 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
   {
-    name: "COVID Tracker",
+    name: "My-Poke-Wiki",
     description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+      "Pokedex/ pokemon wiki which contains stats, abilities and pictures of all the pokemons",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["React"],
+    key_techs: ["React", "Redux", "Bootstrap 5", "PokeAPI"],
   },
   {
-    name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
-    description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+    name: "SpaceX Info",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["React"],
+    description: "App for all the spaceX launches info",
+    key_techs: ["React", "Redux", "Bootstrap 5", "Jest", "spacexdata API"],
   },
 
   {
-    name: "Dev Talks",
-    image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
+    name: "Live weather info",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["React"],
     description:
-      "Social Media app for developers who can share project,create posts,etc...",
+      "Takes country and city name as input and shows temperature, humidity etc.",
+    key_techs: ["React", "Material UI", "OpenWeatherMap API"],
+  },
+
+  {
+    name: "My-Expense-Tracker",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["React"],
+    description: "Expense Calculator",
+    key_techs: ["React"],
+  },
+
+  {
+    name: "RentQuest",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["ASP.NET", "SQL"],
+    description: "A dynamic web application for property rental purposes ",
+    key_techs: ["ASP.NET CORE", "MVC", "MSSQL Server", "Bootstrap"],
+  },
+
+  {
+    name: "Youtube Comment Sentiment Analysis",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["ML/NLP"],
+    description:
+      "NLP project for +ve/-ve sentiment/polarity detection of comments from different youtube video categories",
     key_techs: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
+      "PyTorch",
+      "NLTK",
+      "spaCy",
+      "Matplotlib",
+      "sklearn",
+      "RNN",
+      "Word-embedding",
     ],
   },
 
   {
-    name: "Realtime Chat App",
-    image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-    category: ["node", "react"],
-    description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+    name: "NumtaDB - Bengali Handwritten Digits Classification using Neural Network",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["ML/NLP"],
+    description: "Optical Character Recognition using Neural Networks",
+    key_techs: ["PyTorch", "Numpy", "Pandas", "Matplotlib", "sklearn"],
   },
 
   {
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
-  },
-
-  {
-    name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
-    description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+    name: "Football Tournament Management System",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["Java", "SQL"],
+    description: "Desktop application for tournament stats",
+    key_techs: ["Java", "MSSQL Server"],
   },
   {
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
+    name: "ClassyCooking",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["PHP", "SQL"],
     description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-    key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
-    ],
+      "A restaurant website (with admin panel) where owner showcases the exotic menu and other up-to-date info",
+    key_techs: ["PHP", "MySQL"],
   },
   {
-    name: "Football App",
-    image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
-    category: ["react"],
-    description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    name: "Distributed Office Management System",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["SQL"],
+    description: "A distributed database software for a startup company",
+    key_techs: ["PL/SQL"],
+  },
+  {
+    name: "Voice Recorder plus MP3 Player",
+    image_path: "/images/a.jpg",
+    deployed_url: "",
+    github_url: "",
+    category: ["Android", "SQL"],
+    description: "A simple but catchy android app ",
+    key_techs: ["Android Studio", "Java", "SQLite"],
   },
 ];

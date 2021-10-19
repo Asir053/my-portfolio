@@ -32,7 +32,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href='/assets/CV of Ar-Raji Billah.pdf'
+        href='/Images/CV of Ar-Raji Billah.pdf'
         download='CV of Ar-Raji Billah.pdf'
         className='flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500'
       >
