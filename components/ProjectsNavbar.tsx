@@ -30,6 +30,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value='PHP' {...props} />
       <NavItem value='SQL' {...props} />
       <NavItem value='Android' {...props} />
+      <NavItem value='Arduino' {...props} />
     </div>
   );
 };

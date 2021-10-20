@@ -40,7 +40,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Research",
     about:
-      "Eager to study cutting edge <b>ML/DL concepts</b> and implement them",
+      "eager to study cutting edge <b>ML/DL concepts</b> and implement them",
   },
 ];
 
@@ -48,17 +48,17 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "70",
+    level: "75",
   },
   {
     Icon: BsCircleFill,
     name: "Java Script",
-    level: "65",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
     name: "SQL",
-    level: "70",
+    level: "75",
   },
 
   {
@@ -69,7 +69,7 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Java",
-    level: "60",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
@@ -92,7 +92,7 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "React",
-    level: "70",
+    level: "75",
   },
   {
     Icon: BsCircleFill,
@@ -112,67 +112,45 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "CSS Flex & Grid",
-    level: "65",
+    level: "70",
   },
 ];
 
 export const projects: IProject[] = [
   {
-    name: "My-Poke-Wiki",
+    name: "My Pokémon Wiki",
     description:
       "Pokedex/ pokemon wiki which contains stats, abilities and pictures of all the pokemons",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/images/pokess.png",
+    deployed_url: "https://pokemon-wiki-japa1h52d-asir053.vercel.app/",
+    github_url: "https://github.com/Asir053/My-Poke-Wiki",
     category: ["React"],
     key_techs: ["React", "Redux", "Bootstrap 5", "PokeAPI"],
   },
   {
-    name: "SpaceX Info",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
-    category: ["React"],
-    description: "App for all the spaceX launches info",
-    key_techs: ["React", "Redux", "Bootstrap 5", "Jest", "spacexdata API"],
-  },
-
-  {
-    name: "Live weather info",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
+    name: "Live Weather Info",
+    image_path: "/images/weatherss.png",
+    deployed_url: "https://live-weather-info.vercel.app/",
+    github_url: "https://github.com/Asir053/Live-weather-info",
     category: ["React"],
     description:
       "Takes country and city name as input and shows temperature, humidity etc.",
     key_techs: ["React", "Material UI", "OpenWeatherMap API"],
   },
-
-  {
-    name: "My-Expense-Tracker",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
-    category: ["React"],
-    description: "Expense Calculator",
-    key_techs: ["React"],
-  },
-
   {
     name: "RentQuest",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/images/rentquestss.png",
+    deployed_url: "https://www.youtube.com/watch?v=JYM9gwL1B_U",
+    github_url: "https://github.com/Asir053/RentQuest",
     category: ["ASP.NET", "SQL"],
     description: "A dynamic web application for property rental purposes ",
     key_techs: ["ASP.NET CORE", "MVC", "MSSQL Server", "Bootstrap"],
   },
-
   {
     name: "Youtube Comment Sentiment Analysis",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/images/sentimentss.png",
+    deployed_url: "http://localhost:3000/projects",
+    github_url: "https://github.com/Asir053/Youtube_Comment_Sentiment_Analysis",
     category: ["ML/NLP"],
     description:
       "NLP project for +ve/-ve sentiment/polarity detection of comments from different youtube video categories",
@@ -188,10 +166,30 @@ export const projects: IProject[] = [
   },
 
   {
+    name: "My Expense Tracker",
+    image_path: "/images/expencess.png",
+    deployed_url: "http://localhost:3000/projects",
+    github_url: "https://github.com/Asir053/My-Expense-Tracker",
+    category: ["React"],
+    description: "Income-expense calculator",
+    key_techs: ["React"],
+  },
+  {
+    name: "SpaceX Launches Info",
+    image_path: "/images/spacexss.png",
+    deployed_url: "https://spacex-launches-info.herokuapp.com",
+    github_url: "https://github.com/Asir053/spacex-info-demo",
+    category: ["React"],
+    description: "Filter SpaceX launches by rocket name, launch date etc.",
+    key_techs: ["React", "Redux", "Bootstrap 5", "Jest", "spacexdata API"],
+  },
+
+  {
     name: "NumtaDB - Bengali Handwritten Digits Classification using Neural Network",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/images/nnss.png",
+    deployed_url: "http://localhost:3000/projects",
+    github_url:
+      "https://github.com/Asir053/DeepLearning/tree/main/NumtaDB%20-%20Bengali%20Handwritten%20Digits%20Classification%20using%20Neural%20Network",
     category: ["ML/NLP"],
     description: "Optical Character Recognition using Neural Networks",
     key_techs: ["PyTorch", "Numpy", "Pandas", "Matplotlib", "sklearn"],
@@ -199,39 +197,50 @@ export const projects: IProject[] = [
 
   {
     name: "Football Tournament Management System",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/images/ftmsss.png",
+    deployed_url: "http://localhost:3000/projects",
+    github_url:
+      "https://github.com/Asir053/Football_Tournament_Management_System",
     category: ["Java", "SQL"],
     description: "Desktop application for tournament stats",
     key_techs: ["Java", "MSSQL Server"],
   },
   {
     name: "ClassyCooking",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/images/classycookingss.jpg",
+    deployed_url: "http://localhost:3000/projects",
+    github_url: "https://github.com/Asir053/ClassyCooking",
     category: ["PHP", "SQL"],
     description:
       "A restaurant website (with admin panel) where owner showcases the exotic menu and other up-to-date info",
-    key_techs: ["PHP", "MySQL"],
+    key_techs: ["PHP", "MySQL", "jQuery"],
   },
   {
     name: "Distributed Office Management System",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/images/plsqlss.png",
+    deployed_url: "http://localhost:3000/projects",
+    github_url: "https://github.com/Asir053/Office_Management_System",
     category: ["SQL"],
     description: "A distributed database software for a startup company",
     key_techs: ["PL/SQL"],
   },
   {
     name: "Voice Recorder plus MP3 Player",
-    image_path: "/images/a.jpg",
-    deployed_url: "",
-    github_url: "",
-    category: ["Android", "SQL"],
+    image_path: "/images/androidss.jpg",
+    deployed_url: "http://localhost:3000/projects",
+    github_url: "https://github.com/Asir053/VoiceRecorder_MP3Player",
+    category: ["Android", "Java", "SQL"],
     description: "A simple but catchy android app ",
     key_techs: ["Android Studio", "Java", "SQLite"],
+  },
+  {
+    name: "SmartHome",
+    image_path: "/images/arduinoss.jpg",
+    deployed_url: "http://localhost:3000/projects",
+    github_url: "https://github.com/Asir053/SmartHome_Arduino",
+    category: ["Arduino"],
+    description:
+      "Microcontroller based system design project for controlling electronic devices using voice commands in an android phone.",
+    key_techs: ["Arduino", "C"],
   },
 ];

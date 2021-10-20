@@ -24,9 +24,9 @@ const About: NextPage = () => {
       exit='exit'
     >
       <h6 className='my-3 text-base font-medium'>
-        A relentless learner, a passionate programmer (problem solver) who loves
-        to do experiments and always tries to maximize productivity.
-        Enthusiastic about Web Development and Machine Learning.
+        A relentless learner, a passionate problem solver who loves to do
+        experiments and always tries to maximize productivity. Enthusiastic
+        about Web Development and Machine Learning.
       </h6>
       <div
         className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 '

@@ -29,4 +29,5 @@ export type Category =
   | "Java"
   | "PHP"
   | "SQL"
-  | "Android";
+  | "Android"
+  | "Arduino";
