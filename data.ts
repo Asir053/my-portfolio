@@ -57,6 +57,11 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Typescript",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
     name: "SQL",
     level: "75",
   },
@@ -96,6 +101,21 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Keras",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Node and Express",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Django REST",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
     name: "ASP.NET",
     level: "65",
   },
@@ -103,16 +123,6 @@ export const tools: Skill[] = [
     Icon: BsCircleFill,
     name: "PyTorch",
     level: "65",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Keras",
-    level: "70",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "CSS Flex & Grid",
-    level: "70",
   },
 ];
 

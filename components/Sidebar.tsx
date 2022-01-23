@@ -61,6 +61,12 @@ const Sidebar = () => {
         <div className='flex items-center justify-center'>
           <GoLocation className='mr-2' /> <span>Dhaka,Bangladesh </span>
         </div>
+        <p className='my-2 '>
+          {" "}
+          Intern at <a href='https://softbdltd.com/'>
+            Soft BD Ltd.
+          </a> <br /> (November 2021- Present){" "}
+        </p>
         <p className='my-2 '> asirbillah@gmail.com </p>
         <p className='my-2'> +8801905651233 </p>
       </div>
