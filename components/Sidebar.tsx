@@ -63,9 +63,9 @@ const Sidebar = () => {
         </div>
         <p className='my-2 '>
           {" "}
-          Intern at <a href='https://softbdltd.com/'>
-            Soft BD Ltd.
-          </a> <br /> (November 2021- Present){" "}
+          Jr. Software Engineer at <br />{" "}
+          <a href='https://softbdltd.com/'>Soft BD Ltd.</a> <br /> (March 2022-
+          Present){" "}
         </p>
         <p className='my-2 '> asirbillah@gmail.com </p>
         <p className='my-2'> +8801905651233 </p>
