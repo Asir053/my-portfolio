@@ -64,8 +64,12 @@ const Sidebar = () => {
         <p className='my-2 '>
           {" "}
           Jr. Software Engineer at <br />{" "}
-          <a href='https://softbdltd.com/'>Soft BD Ltd.</a> <br /> (March 2022-
-          Present){" "}
+          <a href='https://www.primetechbd.com/'>
+            Prime Tech Solutions Ltd.
+          </a>{" "}
+          <br /> (Aug 2022- Present)
+          <br /> <a href='https://softbdltd.com/'>Soft BD Ltd.</a> <br /> (Feb
+          2022- Aug 2022){" "}
         </p>
         <p className='my-2 '> asirbillah@gmail.com </p>
         <p className='my-2'> +8801905651233 </p>

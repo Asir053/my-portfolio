@@ -24,6 +24,14 @@ const Resume = () => {
               Ahsanullah University of Science and Technology (2016-2021)
             </p>
             <p className='my-3'>Obtained the BSc degree with CGPA 3.597</p>
+            <p className='my-3 text-xl font-bold'>
+              Publications: "Recognition of Bangla Sign Language Characters and
+              Digits using CNN"
+              <br />
+              <a href='https://ieeexplore.ieee.org/abstract/document/9775823/'>
+                [Link]
+              </a>
+            </p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial='initial' animate='animate'>
